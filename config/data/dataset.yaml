@@ -1,0 +1,24 @@
+path: input/open/
+encoder: resources/encoder/
+shift: 1
+train: train
+test: test
+target: credit
+submit: submission
+n_splits: 10
+seed: 42
+cat_features:
+- income_type
+- edu_type
+- family_type
+- house_type
+- occyp_type
+- USER
+drop_features:
+- gender
+- car
+- reality
+- email
+- child_num
+- DAYS_BIRTH
+- DAYS_EMPLOYED

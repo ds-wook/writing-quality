@@ -1,0 +1,19 @@
+cat_features:
+- income_type
+- edu_type
+- family_type
+- house_type
+- FLAG_MOBIL
+- work_phone
+- phone
+- occyp_type
+- begin_month
+- DAYS_BIRTH_MONTH
+- DAYS_BIRTH_WEEK
+- Age
+- DAYS_EMPLOYED_MONTH
+- DAYS_EMPLOYED_WEEK
+- BEFORE_EMPLOYED
+- BEFORE_EMPLOYED_MONTH
+- BEFORE_EMPLOYED_WEEK
+- USER

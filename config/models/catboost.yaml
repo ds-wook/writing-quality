@@ -1,0 +1,18 @@
+params:
+  task_type: CPU
+  boosting_type: Ordered
+  loss_function: MultiClass
+  eval_metric: MultiClass
+  learning_rate: 0.05
+  l2_leaf_reg: 0.02
+  bagging_temperature: 3
+  min_data_in_leaf: 57
+  od_type: Iter
+  iterations: 20000
+  allow_writing_files: False
+path: resources/models/
+name: catboost
+results: 5fold-mae-catboost
+early_stopping_rounds: 100
+seed: 42
+verbose_eval: 250

@@ -1,0 +1,18 @@
+defaults:
+  - _self_
+  - data: dataset
+  - models: lightgbm
+  - features: featurize
+  - experiment: wandb
+  - hydra: custom
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+output:
+  path: output
+  name: median-final-ensemble.csv
+  submit: sample_submission.csv
+
+median_preds:
+  - test_submission_43.93.csv
+  - 5fold-mae-lightgbm.csv

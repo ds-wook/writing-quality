@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - data: dataset
+  - models: lightgbm
+  - features: featurize
+  - experiment: wandb
+  - hydra: default
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+output:
+  path: output
+  submission: sample_submission.csv
+  name: 2day-cross-validation-xgboost.csv
