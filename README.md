@@ -1,6 +1,3 @@
-# writing-quality
-Linking Writing Processes to Writing Quality
-
 ### Introduction
 This repository is the code that placed 187th [Linking Writing Processes to Writing Quality](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality) competition.
 
