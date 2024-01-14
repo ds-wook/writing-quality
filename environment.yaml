@@ -1,0 +1,33 @@
+name: ...
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - pip
+  - python=3.10.11
+  - pip:
+    - black
+    - flake8
+    - isort
+    - jupyter==1.0.0
+    - openpyxl==3.0.10
+    - catboost==1.2.2
+    - hydra-core==1.2.0
+    - lightgbm==4.1.0
+    - matplotlib==3.5.3
+    - seaborn==0.11.0
+    - numpy==1.23.5
+    - pandas==2.1.2
+    - plotly==5.18.0
+    - prettytable==3.8.0
+    - pytorch-tabnet==4.1.0
+    - scikit-learn==0.24.2
+    - scipy==1.10.1
+    - torch==1.13.0
+    - torchaudio==0.13.0
+    - torchvision==0.14.0
+    - tqdm==4.65.0
+    - xgboost==2.0.1
+    - wandb==0.15.12
+    - optuna==2.10.1
