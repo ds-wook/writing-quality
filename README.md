@@ -6,4 +6,4 @@ This repository is the code that placed 187th [Linking Writing Processes to Writ
 
 
 ### Reference
-![LaMa Model](https://www.kaggle.com/code/kononenko/lgbm-x2-nn-fusion)
+[LaMa Model](https://www.kaggle.com/code/kononenko/lgbm-x2-nn-fusion)
